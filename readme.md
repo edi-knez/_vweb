@@ -6,8 +6,8 @@ Brzo i jednostavno predociti sve od znacaja sto sam napravio
 
 
 ### Demonstracija:
-#### Slika prikazuje main menu igrice
-![Primjer rada programa](___readme_assets/.png)
+#### Slika prikazuje dodatno programiranje vanjskoj servisa za "street view" Zemlje zajedno sa pluginom za postavljanje slika na takvu mapu i pluginom koji postavlja slike u "cluster" - prostor na kojemu su slikane
+![Primjer rada programa](___readme_assets/browser_WH4FbxANP8.png)
 
 
 ### U izradi...
