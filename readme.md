@@ -4,6 +4,8 @@
 ### Svrha:
 Brzo i jednostavno predoèiti sve od znaèaja što sam napravio
 
+---
+---
 
 ### Zadatak: klijent je tražio da mu se slike prikažu na geografskoj lokaciji Zemlje tamo gdje su i slikane.
 #### Razrada: 
@@ -28,6 +30,10 @@ Analiza: riješili smo nus pojave iz prothodne opcija, ali sada kada se mapa odma
 Kako bih riješio ovaj problem koristio sam built-in funkciju setTimeout kako bih podijelio posao na ostatak procesora. Poboljšao se i user experience jer je sada animirano uèitavanje markera u klustere umjesto da se sve uèita u jedan trenutak.
 
 Dodatno sam optimizirao bandwidth jer nepotrebno ne dohvaæam SVE nazive slika napoèetku, veæ samo naziv slike nakon što klikneš na nju odnosno klikneš na kluster.
+
+---
+
+
 
 #### Demonstracija:
 Slika prikazuje inicijalno stanje nakon što uèita sve slike iz baze.
