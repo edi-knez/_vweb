@@ -6,9 +6,9 @@ Brzo i jednostavno predociti sve od znacaja sto sam napravio
 
 ### Zadatak: klijent je tražio da mu se slike prikažu na geografskoj lokaciji Zemlje tamo gdje su i slikane.
 ### Razrada: 
-Za svrhu prikaza "street view" Zemlje pronašao sam besplatni vanjski servis Open Street Map koji mi omoguæava prikazivanje "tile-ova". [Open Street Map](https://www.openstreetmap.org/)
-Zatim za postavljanje slika na mapi sam koristio besplatni plugin leaflet. 
-Kako bih slike bliskih lokacija stavio pod istu skupinu koristio sam još jedan besplatni plugin koji se gradi nad leaflet.
+Za svrhu prikaza "street view" Zemlje pronašao sam besplatni vanjski servis [Open Street Map](https://www.openstreetmap.org/) koji mi omoguæava prikazivanje "tile-ova" na stranici. 
+Zatim za postavljanje slika na mapi sam koristio besplatni plugin [Leaflet](https://leafletjs.com/). 
+Koristio sam još i besplatni plugin [marker cluster](https://github.com/leaflet/leaflet.markercluster) koji se gradi nad leaflet pluginu koji automatski grupira preklapajuæe oznake (markere) u jednu zajednièku ikonu s brojem stavki kako bi poboljšao performanse i èitljivost karte.
 
 ### Demonstracija:
 #### Slika prikazuje dodatno programiranje vanjskoj servisa za "street view" Zemlje zajedno sa pluginom za postavljanje slika na takvu mapu i pluginom koji postavlja slike u "cluster" - prostor na kojemu su slikane
