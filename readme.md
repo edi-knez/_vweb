@@ -33,10 +33,10 @@ Kako bih riješio ovaj problem koristio sam built-in funkciju setTimeout kako bih
 
 Dodatno sam optimizirao bandwidth jer nepotrebno ne dohvaæam SVE nazive slika napoèetku, veæ samo naziv slike nakon što klikneš na nju odnosno klikneš na kluster.
 
----
++++
+
 Nadalje kada sam stavio sve slike na mapu primjetio sam da stranica nije upotrebljiva jer se su sve slike prikazivale jedna preko druge. 
 Predložio sam na isprogramiram "mini galeriju dimenzija 3x3" koja se može listati kao knjiga. Cilj ovoga rješenja jest što je uvijek uredno posloženo po 9 slika na stranici.
-
 
 
 #### Demonstracija:
