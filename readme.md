@@ -10,6 +10,7 @@ Brzo i jednostavno predoèiti sve od znaèaja što sam napravio
 
 ### Zadatak: klijent je tražio da mu se slike prikažu na geografskoj lokaciji Zemlje tamo gdje su i slikane.
 #### Razrada: 
+-------
 Za svrhu prikaza "street view" Zemlje pronašao sam besplatni vanjski servis [Open Street Map](https://www.openstreetmap.org/) koji mi omoguæava prikazivanje "tile-ova" na stranici. 
 
 Zatim za postavljanje slika na mapi sam koristio besplatni plugin [Leaflet](https://leafletjs.com/). 
@@ -17,14 +18,14 @@ Zatim za postavljanje slika na mapi sam koristio besplatni plugin [Leaflet](http
 Koristio sam još i besplatni plugin [marker cluster](https://github.com/leaflet/leaflet.markercluster) koji se gradi nad leaflet pluginu koji automatski grupira preklapajuæe oznake (markere) u jednu zajednièku ikonu s brojem stavki kako bi poboljšao performanse i èitljivost karte.
 
 #### Realizacija
----
+-------
 Kako se prikaz tile-ova zatraži nakon uèitavanja stranice postoje dvije opcije koje treba uzeti u obzir.
 
 Opcija 1: Sa PHP-om generirati javascript kod za umetanje svake pojedine slike koji æe se izvršiti kada se obradi onLoad event.
 
 Nus pojave: èeka se preko 5 sekundi prije nego što korisnik dobije stranicu nazad od servera jer treba obraditi 27000+ slika. Tu je takoðer problem i nepotrebnog trošenja bandwidth-a mreže jer je stranica velika 30+ kB umjesto par stotina bajtova.
 
------
+---
 
 Opcija 2: Poslati "praznu" stranicu korisniku i pomoæu ajax GET zahtjeva dohvatiti potrebne podatke. (id, longitude, latitude, naziv)
 
