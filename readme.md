@@ -28,8 +28,8 @@ Nus pojave: èeka se preko 5 sekundi prije nego što korisnik dobije stranicu naza
 
 Opcija 2: Poslati "praznu" stranicu korisniku i pomoæu ajax GET zahtjeva dohvatiti potrebne podatke. (id, longitude, latitude, naziv)
 
-Analiza: riješili smo nus pojave iz prothodne opcija, ali sada kada se mapa odmah uèita èekamo 5 sekunda na zamrznutoj stranici jer je main thread optereæen uèitavanjem slika.
-Kako bih riješio ovaj problem koristio sam built-in funkciju setTimeout kako bih podijelio posao na ostatak procesora. Poboljšao se i user experience jer je sada animirano uèitavanje markera u klustere umjesto da se sve uèita u jedan trenutak.
+Analiza: riješili smo nus pojave iz prothodne opcije, ali sada kada se mapa odmah uèita èekamo 5 sekunda na zamrznutoj stranici jer je main thread optereæen uèitavanjem slika.
+Kako bih riješio ovaj problem koristio sam built-in funkciju setTimeout kako bih podijelio posao na ostatak procesora. Poboljšao se i user experience jer je sada animirano uèitavanje markera u klustere umjesto da se sve uèita u jedan trenutku.
 
 Dodatno sam optimizirao bandwidth jer nepotrebno ne dohvaæam SVE nazive slika napoèetku, veæ samo naziv slike nakon što klikneš na nju odnosno klikneš na kluster.
 
@@ -37,20 +37,22 @@ Dodatno sam optimizirao bandwidth jer nepotrebno ne dohvaæam SVE nazive slika na
 Nadalje kada sam stavio sve slike na mapu primjetio sam da stranica nije upotrebljiva jer se su sve slike prikazivale jedna preko druge. 
 Predložio sam na isprogramiram "mini galeriju dimenzija 3x3" koja se može listati kao knjiga. Cilj ovoga rješenja jest što je uvijek uredno posloženo po 9 slika na stranici.
 
----
-Ukratko popis ostalih stvari koje sam isprogramirao na ovoj stranici:
-+ 
+
 
 #### Demonstracija:
 ---
 Slika prikazuje inicijalno stanje nakon što uèita sve slike iz baze.
 ![Primjer](__assets_readme/browser_WH4FbxANP8.jpg)
 
-Slika prikazuje inicijalno stanje nakon što uèita sve slike iz baze i zoom-ira se mapa.
+Slika prikazuje inicijalno stanje nakon što uèita sve slike iz baze i zoom-ira se mapa. [todo]
 ![Primjer](__assets_readme/browser_WH4FbxANP8.jpg)
 
-Slika prikazuje otvorenu mini galeriju kliknutog klustera.
+Slika prikazuje otvorenu mini galeriju kliknutog klustera. [todo]
 ![Primjer](__assets_readme/browser_WH4FbxANP8.jpg)
+
+
+### Zadatak: napraviti lightbox za pregledavanje galerije i implementirati autoplay (besplatni plugin nije imao ovu funkciju i morao sam je sam napraviti) [todo]
+---
 
 ### U izradi...
 Moram ukloniti copyright sadrzaj prije nego sto prezentiram svoj rad.
