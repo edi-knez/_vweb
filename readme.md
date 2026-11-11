@@ -16,6 +16,7 @@ Zatim za postavljanje slika na mapi sam koristio besplatni plugin [Leaflet](http
 
 Koristio sam još i besplatni plugin [marker cluster](https://github.com/leaflet/leaflet.markercluster) koji se gradi nad leaflet pluginu koji automatski grupira preklapajuæe oznake (markere) u jednu zajednièku ikonu s brojem stavki kako bi poboljšao performanse i èitljivost karte.
 
+
 #### Realizacija
 -------
 Kako se prikaz tile-ova zatraži nakon uèitavanja stranice postoje dvije opcije koje treba uzeti u obzir.
@@ -24,7 +25,6 @@ Opcija 1: Sa PHP-om generirati javascript kod za umetanje svake pojedine slike k
 
 Nus pojave: èeka se preko 5 sekundi prije nego što korisnik dobije stranicu nazad od servera jer treba obraditi 27000+ slika. Tu je takoðer problem i nepotrebnog trošenja bandwidth-a mreže jer je stranica velika 30+ kB umjesto par stotina bajtova.
 
----
 
 Opcija 2: Poslati "praznu" stranicu korisniku i pomoæu ajax GET zahtjeva dohvatiti potrebne podatke. (id, longitude, latitude, naziv)
 
@@ -34,8 +34,12 @@ Kako bih riješio ovaj problem koristio sam built-in funkciju setTimeout kako bih
 Dodatno sam optimizirao bandwidth jer nepotrebno ne dohvaæam SVE nazive slika napoèetku, veæ samo naziv slike nakon što klikneš na nju odnosno klikneš na kluster.
 
 ---
+Nadalje kada sam stavio sve slike na mapu primjetio sam da stranica nije upotrebljiva jer se su sve slike prikazivale jedna preko druge. 
+Predložio sam na isprogramiram "mini galeriju dimenzija 3x3" koja se može listati kao knjiga. Cilj ovoga rješenja jest što je uvijek uredno posloženo po 9 slika na stranici.
 
-
+---
+Ukratko popis ostalih stvari koje sam isprogramirao na ovoj stranici:
++ 
 
 #### Demonstracija:
 ---
