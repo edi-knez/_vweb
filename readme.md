@@ -19,6 +19,7 @@ Kako se prikaz tile-ova zatraži nakon uèitavanja stranice postoje dvije opcije k
 Opcija 1: Sa PHP-om generirati javascript kod za umetanje svake pojedine slike koji æe se izvršiti kada se obradi onLoad event.
 
 Nus pojave: èeka se preko 5 sekundi prije nego što korisnik dobije stranicu nazad od servera jer treba obraditi 27000+ slika. Tu je takoðer problem i nepotrebnog trošenja bandwidth-a mreže jer je stranica velika 30+ kB umjesto par stotina bajtova.
+
 -----
 
 Opcija 2: Poslati "praznu" stranicu korisniku i pomoæu ajax zahtjeva dohvatiti potrebne podatke.
