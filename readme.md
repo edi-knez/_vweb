@@ -13,7 +13,7 @@ Zatim za postavljanje slika na mapi sam koristio besplatni plugin [Leaflet](http
 Koristio sam još i besplatni plugin [marker cluster](https://github.com/leaflet/leaflet.markercluster) koji se gradi nad leaflet pluginu koji automatski grupira preklapajuæe oznake (markere) u jednu zajednièku ikonu s brojem stavki kako bi poboljšao performanse i èitljivost karte.
 
 ### Demonstracija:
-#### Slika prikazuje dodatno programiranje vanjskoj servisa za "street view" Zemlje zajedno sa pluginom za postavljanje slika na takvu mapu i pluginom koji postavlja slike u "cluster" - prostor na kojemu su slikane
+Slika prikazuje inicijalno stanje nakon što uèita sve slike iz baze.
 ![Primjer](__assets_readme/browser_WH4FbxANP8.jpg)
 
 
