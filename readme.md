@@ -5,6 +5,7 @@
 Brzo i jednostavno predoèiti sve od znaèaja što sam napravio
 
 ---
+
 ---
 
 ### Zadatak: klijent je tražio da mu se slike prikažu na geografskoj lokaciji Zemlje tamo gdje su i slikane.
@@ -16,6 +17,7 @@ Zatim za postavljanje slika na mapi sam koristio besplatni plugin [Leaflet](http
 Koristio sam još i besplatni plugin [marker cluster](https://github.com/leaflet/leaflet.markercluster) koji se gradi nad leaflet pluginu koji automatski grupira preklapajuæe oznake (markere) u jednu zajednièku ikonu s brojem stavki kako bi poboljšao performanse i èitljivost karte.
 
 #### Realizacija
+---
 Kako se prikaz tile-ova zatraži nakon uèitavanja stranice postoje dvije opcije koje treba uzeti u obzir.
 
 Opcija 1: Sa PHP-om generirati javascript kod za umetanje svake pojedine slike koji æe se izvršiti kada se obradi onLoad event.
@@ -24,7 +26,7 @@ Nus pojave: èeka se preko 5 sekundi prije nego što korisnik dobije stranicu naza
 
 -----
 
-Opcija 2: Poslati "praznu" stranicu korisniku i pomoæu ajax zahtjeva dohvatiti potrebne podatke.
+Opcija 2: Poslati "praznu" stranicu korisniku i pomoæu ajax GET zahtjeva dohvatiti potrebne podatke. (id, longitude, latitude, naziv)
 
 Analiza: riješili smo nus pojave iz prothodne opcija, ali sada kada se mapa odmah uèita èekamo 5 sekunda na zamrznutoj stranici jer je main thread optereæen uèitavanjem slika.
 Kako bih riješio ovaj problem koristio sam built-in funkciju setTimeout kako bih podijelio posao na ostatak procesora. Poboljšao se i user experience jer je sada animirano uèitavanje markera u klustere umjesto da se sve uèita u jedan trenutak.
@@ -36,6 +38,7 @@ Dodatno sam optimizirao bandwidth jer nepotrebno ne dohvaæam SVE nazive slika na
 
 
 #### Demonstracija:
+---
 Slika prikazuje inicijalno stanje nakon što uèita sve slike iz baze.
 ![Primjer](__assets_readme/browser_WH4FbxANP8.jpg)
 
