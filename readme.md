@@ -2,11 +2,10 @@
 ## Relenvantno znanje i vještine koje sam stekao radeæi na projektima
 
 ### Svrha:
+---
 Brzo i jednostavno predoèiti sve od znaèaja što sam napravio
 
----
 
----
 
 ### Zadatak: klijent je tražio da mu se slike prikažu na geografskoj lokaciji Zemlje tamo gdje su i slikane.
 #### Razrada: 
@@ -46,7 +45,7 @@ Slika prikazuje inicijalno stanje nakon što uèita sve slike iz baze.
 Slika prikazuje inicijalno stanje nakon što uèita sve slike iz baze i zoom-ira se mapa.
 ![Primjer](__assets_readme/browser_WH4FbxANP8.jpg)
 
-Slika prikazuje otvorenu mini galeriju kliknutom klustera.
+Slika prikazuje otvorenu mini galeriju kliknutog klustera.
 ![Primjer](__assets_readme/browser_WH4FbxANP8.jpg)
 
 ### U izradi...
