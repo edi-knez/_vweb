@@ -1,10 +1,9 @@
 # _vweb
 ## Relenvantno znanje i vještine koje sam stekao radeæi na projektima
-
 ### Svrha:
----
 Brzo i jednostavno predoèiti sve od znaèaja što sam napravio
 
+---
 
 
 ### Zadatak: klijent je tražio da mu se slike prikažu na geografskoj lokaciji Zemlje tamo gdje su i slikane.
@@ -45,10 +44,10 @@ Slika prikazuje inicijalno stanje nakon što uèita sve slike iz baze.
 ![Primjer](__assets_readme/browser_WH4FbxANP8.jpg)
 
 Slika prikazuje inicijalno stanje nakon što uèita sve slike iz baze i zoom-ira se mapa. [todo]
-![Primjer](__assets_readme/browser_WH4FbxANP8.jpg)
+![Primjer](__assets_readme/zoomirana_mapa.jpg)
 
 Slika prikazuje otvorenu mini galeriju kliknutog klustera. [todo]
-![Primjer](__assets_readme/browser_WH4FbxANP8.jpg)
+![Primjer](__assets_readme/otvorena_mini_galerija.jpg)
 
 
 ### Zadatak: napraviti lightbox za pregledavanje galerije i implementirati autoplay (besplatni plugin nije imao ovu funkciju i morao sam je sam napraviti) [todo]
