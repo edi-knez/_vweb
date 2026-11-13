@@ -49,7 +49,8 @@ Slika prikazuje inicijalno stanje nakon što uèita sve slike iz baze i zoom-ira s
 Slika prikazuje otvorenu mini galeriju kliknutog klustera.
 ![Primjer](__assets_readme/otvorena_mini_galerija.png)
 
-
+---
+---
 ### Zadatak: napraviti lightbox za pregledavanje galerije i implementirati autoplay (besplatni plugin nije imao ovu funkciju i morao sam je sam napraviti) [todo]
 ---
 
