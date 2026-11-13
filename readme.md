@@ -43,10 +43,10 @@ Predložio sam da isprogramiram "mini galeriju dimenzija 3x3" koja se može listat
 Slika prikazuje inicijalno stanje nakon što uèita sve slike iz baze.
 ![Primjer](__assets_readme/browser_WH4FbxANP8.jpg)
 
-Slika prikazuje inicijalno stanje nakon što uèita sve slike iz baze i zoom-ira se mapa. [todo]
+Slika prikazuje inicijalno stanje nakon što uèita sve slike iz baze i zoom-ira se mapa.
 ![Primjer](__assets_readme/zoomirana_mapa.png)
 
-Slika prikazuje otvorenu mini galeriju kliknutog klustera. [todo]
+Slika prikazuje otvorenu mini galeriju kliknutog klustera.
 ![Primjer](__assets_readme/otvorena_mini_galerija.png)
 
 
